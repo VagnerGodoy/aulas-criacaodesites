@@ -1,0 +1,24 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(max-content,500px) minmax(min-content, 1fr) minmax(min-content, 1fr);
+    grid-template-rows: minmax(min-content, 1fr);
+}
+
+.vermelho{
+    background-color: red;
+    text-align: center;
+}
+
+.verde{
+    background-color: green;
+    text-align: center;
+}
+.amarelo{
+    background-color: yellow;
+    text-align: center;
+}
